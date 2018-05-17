@@ -32,6 +32,10 @@ function ImageJ (config) {
     }
     self.emit('booting')
 
+    if (config.headless) {
+      var System = java.import('java.lang.System')
+      System.setProperty('java.awt.headless', 'true')
+    }
     var ImageJ = java.import('net.imagej.ImageJ')
     ij = ImageJ()
 
