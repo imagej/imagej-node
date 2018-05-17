@@ -1,0 +1,29 @@
+{
+  "name": "imagej",
+  "version": "1.0.0",
+  "description": "ImageJ module for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imagej/imagej-node.git"
+  },
+  "keywords": [
+    "ImageJ",
+    "Fiji"
+  ],
+  "author": "ctrueden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imagej/imagej-node/issues"
+  },
+  "homepage": "https://github.com/imagej/imagej-node#readme",
+  "dependencies": {
+    "java": "^0.9.1",
+    "node-java-maven": "^0.1.1",
+    "when": "^3.7.8"
+  },
+  "devDependencies": {}
+}
