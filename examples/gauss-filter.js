@@ -1,6 +1,5 @@
 config = {}
 config.imagej_dir = process.env.IMAGEJ_DIR
-config.java_dir = process.env.JAVA_HOME
 config.headless = true
 
 console.log('==> Starting ImageJ')
